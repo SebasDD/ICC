@@ -42,6 +42,17 @@ a {
    
 
 }
+
+.nav img {
+    height: 44px;
+    display: none;
+    justify-content: flex-end;
+    margin-left: 120px;
+    margin-top: 35px;
+    background-color: white;
+    border-radius: 100px;
+    
+}
 li{ width: 73px;
     height: 22px;}
     
@@ -83,7 +94,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;}
-.nav, ul, li, a{
+.nav, ul, li, a, img{
     display: flex;
     justify-content: flex-end;
     font-family: 'Montserrat', sans-serif;
@@ -117,8 +128,8 @@ a {
     height: 189px;
     margin-bottom: 0px;
     display: inline-flex;
-    left: 60%;
-    top: 110%;
+    left: 75%;
+    top: 69%;
    
 
     z-index: 100;
@@ -170,3 +181,120 @@ h3 {
         margin: 10px;
         margin-top: 200px;
     }
+
+@media only screen and (max-width: 400px)  {
+.nav ul {
+    display: none;
+}
+.nav {
+    justify-content: flex-start;
+
+    
+}
+button {
+    margin-left: 10px;
+}
+.nav img {
+    height: 44px;
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-left: 120px;
+    margin-top: 35px;
+    background-color: white;
+    border-radius: 100px;
+    
+}
+
+.img img {
+
+    z-index: 10;
+    width: 650px;
+    height: 500px;
+    flex-shrink: 0;   
+    margin-right: 44.06px;
+}
+.content-container {
+    color: white;
+    display:block;
+    justify-content: left;
+    margin-top: 10px;
+    z-index: 40;
+    margin-left: 10pxs;
+
+    
+}
+.cont h1, p {
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 87px;
+}
+h1 {
+    width: 274px;
+    height: 46px;
+    top: 88px;
+    left: 12px;
+    font-family: Lora;
+font-size: 36px;
+font-weight: 500;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+
+    
+}
+p {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    width: 250px;
+    height: 85px;
+    top: 159px;
+    left: 12px;
+    margin-bottom: 0px;
+
+    
+}
+.learn {
+    width: 80px;
+height: 17px;
+top: 269px;
+left: 0px;
+display: block;
+justify-content: start;
+margin-left: 16px;
+margin-bottom: 10px;
+margin-top: 5px;
+
+}
+.img img {
+    width: 398px;
+    height: 264.32159423828125px;
+    top: 323px;
+    left: 12px;
+    }
+
+    .coment{
+        position: absolute;
+        width:335px;
+        height: 189px;
+        margin-bottom: 0px;
+        display: inline-flex;
+        left: 8%;
+        top: 65%;
+       
+    
+        z-index: 100;
+        background: #181719;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    footer{
+        margin-top: 150px;
+    }
+
+
+
+}
