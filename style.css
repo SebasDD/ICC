@@ -1,7 +1,13 @@
 *{
     margin: 0 auto;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rubik&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 
 body {
     width: 100%;
@@ -33,11 +39,14 @@ button {
     height: 32px;
     color: white;
     text-align: center;
+    font-family: 'Crimson Pro', serif;
+    text-transform: capitalize;
 }
 a {
     
     text-decoration: none;
     color: white;
+  
 
    
 
@@ -89,7 +98,7 @@ font-weight: 500;
 line-height: normal;
 }
 p {color: #FFF;
-font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
@@ -227,6 +236,7 @@ button {
     margin-bottom: 40px;
     margin-left: 10px;
     margin-right: 87px;
+    font-family: 'Montserrat', sans-serif;
 }
 h1 {
     width: 274px;
@@ -234,27 +244,21 @@ h1 {
     top: 88px;
     left: 12px;
     font-family: Lora;
-font-size: 36px;
-font-weight: 500;
-line-height: 46px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
 
     
 }
 p {
-    font-family: 'Montserrat';
-    font-size: 14px;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0em;
-    text-align: left;
-
-    width: 250px;
-    height: 85px;
-    top: 159px;
-    left: 12px;
-    margin-bottom: 0px;
+    line-height: normal;
 
     
 }
