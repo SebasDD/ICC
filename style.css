@@ -29,7 +29,11 @@ ul {
     margin-right: 0;
    
 }
+.button {
+    text-transform: capitalize;
 
+
+}
 button {
     background-color: transparent;
     border: white 1px solid;
@@ -202,6 +206,7 @@ h3 {
 }
 button {
     margin-left: 10px;
+    text-transform: capitalize;
 }
 .nav img {
     height: 44px;
